@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3000+ - A feladat</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3000+ feladatok</title>
+
+    <link rel="stylesheet" href="/static/output.css">
+</head>
+<body class="bg-white dark:bg-neutral-900">
+    <h1 class="font-bold text-lg text-neutral-700 dark:text-neutral-300 text-center mt-5">3000+ feladatok</h1>
+    <h1 class="font-bold text-2xl md:text-5xl text-emerald-600 dark:text-white text-center mt-10">3000A+</h1>
+
+
+    <div class="flex justify-center mt-5">
+        <div class="max-w-2xl justify-center">
+            <h2 class="text-black font-bold text-xl dark:text-neutral-400">
+                Feladat
+            </h2>
+            <p>
+                A következő feladatok közül sok egymást követő feladat nagyon hasonlít egymásra. Törekedj arra, hogy szép, áttekinthető kódot írj! Úgy oldd meg a feladatokat, hogy függvényeket használsz a megoldáshoz! A felhasznált függvényekben ne történjen konzolra való kiírás!
+            </p>
+            <div id="hs-show-hide-collapse-heading" class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-show-hide-collapse">
+                <p class="text-gray-500 dark:text-neutral-400">
+                    Mindegyik feladatban nagyon fontos, hogy bár egyetlen inputfájlt kapsz, úgy írd meg a programod, hogy <span class="font-bold">bármilyen, a feladatkiírásnak megfelelő inputfájllal működjön</span>!
+                    
+                    Olvassuk be az alábbi fájl tartalmmát egy listába/tömbbe, majd a következő feladatokat oldjuk meg. Minden feladat előtt a program írja ki a feladat sorszámát! 
+                </p>
+              </div>
+              <p class="mt-2">
+                <button type="button" class="hs-collapse-toggle inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-emerald-600 hover:text-emerald-800 disabled:opacity-50 disabled:pointer-events-none dark:text-emerald-500 dark:hover:text-emerald-400" id="hs-show-hide-collapse" data-hs-collapse="#hs-show-hide-collapse-heading">
+                  <span class="hs-collapse-open:hidden">Teljes feladatleírás</span>
+                  <span class="hs-collapse-open:block hidden">Összecsuk</span>
+                  <svg class="hs-collapse-open:rotate-180 flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m6 9 6 6 6-6"></path>
+                  </svg>
+                </button>
+              </p>
+              
+              <a href="https://molnatt.github.io/input/3000A/input.txt" target="_blank" class="transition py-3 px-4 my-5 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-teal-100 text-teal-800 hover:bg-teal-200 disabled:opacity-50 disabled:pointer-events-none dark:hover:bg-teal-900 dark:text-teal-500 dark:hover:text-teal-400">
+                Bemenetfájl minta
+              </a>
+
+              <div class="border-b border-gray-200 dark:border-neutral-700">
+                <nav class="flex space-x-1" aria-label="Tabs" role="tablist">
+                  <button type="button" class="hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-emerald-600 dark:hs-tab-active:bg-neutral-800 dark:hs-tab-active:border-b-gray-800 dark:hs-tab-active:text-white -mb-px py-3 px-4 inline-flex items-center gap-x-2 bg-gray-50 text-sm font-medium text-center border text-gray-500 rounded-t-lg hover:text-gray-700 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-700 dark:border-neutral-700 dark:text-neutral-400 active" id="card-type-tab-item-1" data-hs-tab="#card-type-tab-preview" aria-controls="card-type-tab-preview" role="tab">
+                    Kérdések
+                  </button>
+                  <button type="button" class="hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-emerald-600 dark:hs-tab-active:bg-neutral-800 dark:hs-tab-active:border-b-gray-800 dark:hs-tab-active:text-white -mb-px py-3 px-4 inline-flex items-center gap-x-2 bg-gray-50 text-sm font-medium text-center border text-gray-500 rounded-t-lg hover:text-gray-700 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-700 dark:border-neutral-700 dark:text-neutral-400" id="card-type-tab-item-2" data-hs-tab="#card-type-tab-2" aria-controls="card-type-tab-2" role="tab">
+                    C# Main
+                  </button>
+                </nav>
+              </div>
+              
+              <div class="mt-3">
+                <div id="card-type-tab-preview" role="tabpanel" aria-labelledby="card-type-tab-item-1">
+                  <p class="text-gray-500 dark:text-neutral-400">                    
+                    Hány eleme van a sorozatnak?
+                    Van-e a sorozatban negatív szám?
+                    Hány páros szám található a sorozatban?
+                    Mennyi a sorozatban található legnagyobb szám?
+                    Írjuk ki a sorozatban található 10-zel osztható számokat!
+                    Írjuk ki az első 29-cel osztható szám indexét!
+                    Igaz-e, hogy minden szám páros?
+                    Mennyi a sorozatban található számok átlaga?
+                    Van-e a sorozatban olyan negatív szám, amelyet nulla követ?
+                    Írjuk ki az utolsó 17-tel osztható szám indexét!
+                    Kérj be egy m számot a felhasználótól! Csoportosítsd a számokat aszerint, hogy a megadott m számmal osztva mennyi maradékot adnak! Melyik csoport hány elemű?
+                  </p>
+                </div>
+                <div id="card-type-tab-2" class="hidden" role="tabpanel" aria-labelledby="card-type-tab-item-2">
+                  <p class="text-gray-500 dark:text-neutral-400 font-mono">
+                    Console.WriteLine("1. Hány eleme van a sorozatnak?");
+                    Console.WriteLine("2. Van-e a sorozatban negatív szám?");
+                    Console.WriteLine("3. Hány páros szám található a sorozatban?");
+                    Console.WriteLine("4. Mennyi a sorozatban található legnagyobb szám?");
+                    Console.WriteLine("5. Írjuk ki a sorozatban található 10-zel osztható számokat!");
+                    Console.WriteLine("6. Írjuk ki az első 29-cel osztható szám indexét!");
+                    Console.WriteLine("7. Igaz-e, hogy minden szám páros?");
+                    Console.WriteLine("8. Mennyi a sorozatban található számok átlaga?");
+                    Console.WriteLine("9. Van-e a sorozatban olyan negatív szám, amelyet nulla követ?");
+                    Console.WriteLine("10. Írjuk ki az utolsó 17-tel osztható szám indexét!");
+                    Console.WriteLine("11. Kérj be egy m számot a felhasználótól! Csoportosítsd a számokat aszerint, hogy a megadott m számmal osztva mennyi maradékot adnak! Melyik csoport hány elemű?");
+                  </p>
+                </div>
+              </div>
+
+        </div>
+    </div>
+
+    <script src="../node_modules/preline/dist/preline.js"></script>
+</body>
+</html>
