@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3000+ feladatok | 3000N+</title>
+
+    <link rel="stylesheet" href="/static/output.css">
+</head>
+<body class="bg-white dark:bg-neutral-900">
+    <div class="flex justify-center"><a href="/" class="mt-5 text-lg font-bold text-center text-neutral-700 dark:text-neutral-300">3000+ feladatok</a></div>
+    <h1 class="mt-10 text-2xl font-bold text-center md:text-5xl text-emerald-600 dark:text-white">3000N+</h1>
+
+    <div class="flex justify-center mt-5">
+        <div class="justify-center max-w-2xl px-4">
+            <h2 class="text-xl font-bold text-black dark:text-neutral-300">
+                Feladat
+            </h2>
+            <p class="text-black whitespace-pre-line dark:text-neutral-300">
+                A következő feladatok közül sok egymást követő feladat nagyon hasonlít egymásra. Törekedj arra, hogy szép, áttekinthető kódot írj! Próbáld meg úgy megoldani a feladatokat, hogy függvényeket használsz a megoldáshoz! Lehetőleg próbáld meg ezeket a függvényeket több feladatban is felhasználni! Mindegyik feladatban nagyon fontos, hogy bár egyetlen inputfájlt kapsz, úgy írd meg a programod, hogy bármilyen, a feladatkiírásnak megfelelő inputfájllal működjön!
+            </p>
+            <div id="hs-show-hide-collapse-heading" class="whitespace-pre-line hs-collapse hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-show-hide-collapse">
+                <p class="text-gray-500 dark:text-neutral-400">
+                    Az input fájl egy belföldi utazási iroda ajánlatait tartalmazza. Az egyes adatelemeket tabulátor választja el. Az input fájl nem tartalmazza a mezőneveket.
+<div class="text-gray-500 dark:text-neutral-400">
+    <p>
+        Az egyes oszlopok jelentése a következő:
+    </p>
+    <ul>
+    <li>Tájegység: az utazást érintő tájegység neve</li>
+    <li>Éjszaka: az eltöltendő éjszakák száma, ami legfeljebb 7</li>
+    <li>Családos: családos vagy egyéni út (logikai)</li>
+    <li>Hónap: melyik hónapra érvényes az ajánlat</li>
+    <li>Maximális létszám</li>
+    <li>Jelentkezések: eddig jelentkezettek száma</li>
+    <li>Ár: részvételi díj egy főre</li>
+    </ul>
+</div>
+                </p>
+            </div>
+            <p class="mt-2">
+                <button type="button" class="inline-flex items-center text-sm font-semibold transition border border-transparent rounded-lg hs-collapse-toggle gap-x-1 text-emerald-600 hover:text-emerald-800 disabled:opacity-50 disabled:pointer-events-none dark:text-emerald-500 dark:hover:text-emerald-400" id="hs-show-hide-collapse" data-hs-collapse="#hs-show-hide-collapse-heading">
+                    <span class="hs-collapse-open:hidden">Teljes feladatleírás</span>
+                    <span class="hidden hs-collapse-open:block">Összecsuk</span>
+                    <svg class="flex-shrink-0 hs-collapse-open:rotate-180 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                </button>
+            </p>
+
+            <a href="https://molnatt.github.io/input/3000N/input.txt" target="_blank" class="inline-flex items-center px-4 py-3 my-5 text-sm font-semibold transition border border-transparent rounded-lg text-emerald-800 bg-emerald-100 gap-x-2 hover:bg-emerald-200 disabled:opacity-50 disabled:pointer-events-none dark:bg-emerald-900 dark:hover:bg-emerald-800 dark:text-emerald-500 dark:hover:text-emerald-400">
+                Bemenetfájl minta
+                <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14 5C13.4477 5 13 4.55228 13 4C13 3.44772 13.4477 3 14 3H20C20.5523 3 21 3.44772 21 4V10C21 10.5523 20.5523 11 20 11C19.4477 11 19 10.5523 19 10V6.41421L11.7071 13.7071C11.3166 14.0976 10.6834 14.0976 10.2929 13.7071C9.90237 13.3166 9.90237 12.6834 10.2929 12.2929L17.5858 5H14ZM5 7C4.44772 7 4 7.44772 4 8V19C4 19.5523 4.44772 20 5 20H16C16.5523 20 17 19.5523 17 19V14.4375C17 13.8852 17.4477 13.4375 18 13.4375C18.5523 13.4375 19 13.8852 19 14.4375V19C19 20.6569 17.6569 22 16 22H5C3.34315 22 2 20.6569 2 19V8C2 6.34315 3.34315 5 5 5H9.5625C10.1148 5 10.5625 5.44772 10.5625 6C10.5625 6.55228 10.1148 7 9.5625 7H5Z" fill="currentColor"></path>
+                    </g>
+                </svg>
+            </a>
+
+            <div class="border-b border-gray-200 dark:border-neutral-700">
+                <nav class="flex space-x-1" aria-label="Tabs" role="tablist">
+                    <button type="button" class="inline-flex items-center px-4 py-3 -mb-px text-sm font-medium text-center text-gray-500 transition border rounded-t-lg hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-emerald-600 dark:hs-tab-active:bg-neutral-900 dark:hs-tab-active:text-emerald-400 gap-x-2 bg-gray-50 hover:text-gray-700 dark:hover:text-gray-300 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-700 dark:border-neutral-700 dark:text-neutral-400 active" id="card-type-tab-item-1" data-hs-tab="#card-type-tab-preview" aria-controls="card-type-tab-preview" role="tab">
+                        Kérdések
+                    </button>
+                    <button type="button" class="inline-flex items-center px-4 py-3 -mb-px text-sm font-medium text-center text-gray-500 transition border rounded-t-lg hs-tab-active:bg-white hs-tab-active:border-b-transparent hs-tab-active:text-emerald-600 dark:hs-tab-active:bg-neutral-900 dark:hs-tab-active:text-emerald-400 gap-x-2 bg-gray-50 hover:text-gray-700 dark:hover:text-gray-300 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-700 dark:border-neutral-700 dark:text-neutral-400" id="card-type-tab-item-2" data-hs-tab="#card-type-tab-2" aria-controls="card-type-tab-2" role="tab">
+                        C# Main
+                    </button>
+                    <a href="https://spcport.botond.eu/3000mainGen" class="inline-flex items-center px-4 py-3 -mb-px text-sm font-medium text-center text-gray-500 transition gap-x-2 hover:text-gray-700 dark:hover:text-gray-300 disabled:opacity-50 disabled:pointer-events-none dark:border-neutral-700 dark:text-neutral-400">
+                        További lehetőségek
+                        <svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14 5C13.4477 5 13 4.55228 13 4C13 3.44772 13.4477 3 14 3H20C20.5523 3 21 3.44772 21 4V10C21 10.5523 20.5523 11 20 11C19.4477 11 19 10.5523 19 10V6.41421L11.7071 13.7071C11.3166 14.0976 10.6834 14.0976 10.2929 13.7071C9.90237 13.3166 9.90237 12.6834 10.2929 12.2929L17.5858 5H14ZM5 7C4.44772 7 4 7.44772 4 8V19C4 19.5523 4.44772 20 5 20H16C16.5523 20 17 19.5523 17 19V14.4375C17 13.8852 17.4477 13.4375 18 13.4375C18.5523 13.4375 19 13.8852 19 14.4375V19C19 20.6569 17.6569 22 16 22H5C3.34315 22 2 20.6569 2 19V8C2 6.34315 3.34315 5 5 5H9.5625C10.1148 5 10.5625 5.44772 10.5625 6C10.5625 6.55228 10.1148 7 9.5625 7H5Z" fill="currentColor"></path>
+                            </g>
+                        </svg>
+                    </a>
+                </nav>
+            </div>
+
+            <div class="mt-3">
+                <div id="card-type-tab-preview" role="tabpanel" aria-labelledby="card-type-tab-item-1">
+                    <ol class="text-gray-500 list-decimal list-inside dark:text-neutral-400">
+                        <li>Hány ajánlat található az input fájlban?</li>
+<li>Hány mátrai tájegységre vonatozó ajánlat található az input fájlban?</li>
+<li>Hány mecseki tájegységre vonatozó ajánlat található az input fájlban?</li>
+<li>Hány bakonyi tájegységre vonatozó ajánlat található az input fájlban?</li>
+<li>Hány hortobágyi tájegységre vonatozó ajánlat található az input fájlban?</li>
+<li>Hány őrségi tájegységre vonatozó ajánlat található az input fájlban?</li>
+<li>Hány mátrai tájegységre vonatozó, családos ajánlat található az input fájlban?</li>
+<li>Hány mecseki tájegységre vonatozó, egyéni ajánlat található az input fájlban?</li>
+<li>Hány bakonyi tájegységre vonatozó, májusi ajánlat található az input fájlban?</li>
+<li>Hány hortobágyi tájegységre vonatozó, júliusi ajánlat található az input fájlban?</li>
+<li>Hány őrségi tájegységre vonatozó, októberi ajánlat található az input fájlban?</li>
+<li>Hány mátrai tájegységre vonatozó, családos, öt napnál hosszabb ajánlat található az input fájlban?</li>
+<li>Hány mecseki tájegységre vonatozó, egyéni, 3 napnál rövidebb ajánlat található az input fájlban?</li>
+<li>Hány bakonyi tájegységre vonatozó, májusi, egy hétnél hosszabb ajánlat található az input fájlban?</li>
+<li>Hány hortobágyi tájegységre vonatozó, júliusi, egy hetes ajánlat található az input fájlban?</li>
+<li>Hány őrségi tájegységre vonatozó, októberi, öt napos ajánlat található az input fájlban?</li>
+<li>Hány mátrai tájegységre vonatozó, családos, még szabad hellyel rendelkező ajánlat található az input fájlban?</li>
+<li>Hány mecseki tájegységre vonatozó, egyéni, még szabad hellyel rendelkező ajánlat található az input fájlban?</li>
+<li>Hány bakonyi tájegységre vonatozó, májusi, még szabad hellyel rendelkező ajánlat található az input fájlban?</li>
+<li>Hány hortobágyi tájegységre vonatozó, júliusi, még szabad hellyel rendelkező ajánlat található az input fájlban?</li>
+<li>Hány őrségi tájegységre vonatozó, októberi, még szabad hellyel rendelkező ajánlat található az input fájlban?</li>
+<li>Válogassuk ki a mátrai tájegységre vonatozó, családos, még szabad hellyel rendelkező ajánlatokat!</li>
+<li>Válogassuk ki a bükki tájegységre vonatozó, májusi, még szabad hellyel rendelkező ajánlatokat!</li>
+<li>Válogassuk ki a zempléni tájegységre vonatozó, egyéni, még szabad hellyel rendelkező ajánlatokat!</li>
+<li>Válogassuk ki a mecseki tájegységre vonatozó, júniusi, még szabad hellyel rendelkező ajánlatokat!</li>
+<li>Válogassuk ki a balatoni tájegységre vonatozó, augusztusi, még szabad hellyel rendelkező ajánlatokat!</li>
+<li>Válogassuk ki a mátrai tájegységre vonatozó, családos, még szabad hellyel rendelkező, 20000 Ft alatti ajánlatokat!</li>
+<li>Válogassuk ki a bükki tájegységre vonatozó, májusi, még szabad hellyel rendelkező, 50000 Ft alatti ajánlatokat!</li>
+<li>Válogassuk ki a zempléni tájegységre vonatozó, egyéni, még szabad hellyel rendelkező, 60000 Ft alatti ajánlatokat!</li>
+<li>Válogassuk ki a mecseki tájegységre vonatozó, júniusi, még szabad hellyel rendelkező, 30000 Ft alatti ajánlatokat!</li>
+<li>Válogassuk ki a balatoni tájegységre vonatozó, augusztusi, még szabad hellyel rendelkező, 40000 Ft alatti ajánlatokat!</li>
+<li>Válogassuk ki a mátrai tájegységre vonatozó, nyári, még szabad hellyel rendelkező ajánlatokat!</li>
+<li>Válogassuk ki a bükki tájegységre vonatozó, nyári, még szabad hellyel rendelkező ajánlatokat!</li>
+<li>Válogassuk ki a zempléni tájegységre vonatozó, téli, még szabad hellyel rendelkező!</li>
+<li>Válogassuk ki a mecseki tájegységre vonatozó, tavaszi, még szabad hellyel rendelkező ajánlatokat!</li>
+<li>Válogassuk ki a balatoni tájegységre vonatozó, őszi, még szabad hellyel rendelkező ajánlatokat!</li>
+<li>Van-e az irodának téli, balatoni ajánlata?</li>
+<li>Van-e az irodának őszi, balatoni ajánlata?</li>
+<li>Van-e az irodának tavaszi, hortobágyi ajánlata?</li>
+<li>Van-e az irodának téli, bakonyi ajánlata?</li>
+<li>Van-e az irodának őszi, bükki ajánlata?</li>
+<li>Van-e az irodának nyári, pilisi ajánlata?</li>
+<li>Van-e az irodának téli, őrségi ajánlata?</li>
+<li>Igaz-e, hogy az minden ajánlat legalább 3 napos?</li>
+<li>Igaz-e, hogy az minden ajánlat legalább 5 napos?</li>
+<li>Igaz-e, hogy az minden ajánlat legalább 2 napos?</li>
+<li>Igaz-e, hogy az minden ajánlat legalább 10000 Ft-ba kerül?</li>
+<li>Igaz-e, hogy az minden ajánlat legalább 5000 Ft-ba kerül?</li>
+<li>Igaz-e, hogy az minden ajánlat legalább 1000 Ft-ba kerül?</li>
+<li>Igaz-e, hogy az minden ajánlat tavaszi, és maximális létszáma legalább 20 fő?</li>
+<li>Igaz-e, hogy az minden ajánlat nyári, és maximális létszáma legalább 5 fő?</li>
+<li>Igaz-e, hogy az minden ajánlat téli, és maximális létszáma legalább 30 fő?</li>
+<li>Igaz-e, hogy az minden ajánlat őszi, és maximális létszáma legalább 15 fő?</li>
+<li>Hány forintba kerül a legdrágább ajánlat?</li>
+<li>Hány forintba kerül a legolcsóbb ajánlat?</li>
+<li>Hány napos a leghosszabb ajánlat?</li>
+<li>Hány napos a legrövidebb ajánlat?</li>
+<li>Hány fős a legnagyobb maximális létszámú ajánlat?</li>
+<li>Hány fős a legkisebb maximális létszámú ajánlat?</li>
+<li>Hány fős a legtöbb jelentkezéssel bíró ajánlat?</li>
+<li>Hány fős a legkisebb jelentkezéssel bíró ajánlat?</li>
+<li>Válogassuk ki a mecseki utak közül azokat, melyekre minden hely elkelt.</li>
+<li>Válogassuk ki a zempléni utak közül azokat, melyekre minden hely elkelt.</li>
+<li>Válogassuk ki az őrségi utak közül azokat, melyekre minden hely elkelt.</li>
+<li>Válogassuk ki a balatoni utak közül azokat, melyekre minden hely elkelt.</li>
+<li>Válogassuk ki a legdrágább ajánlatokat?</li>
+<li>Válogassuk ki a legolcsóbb ajánlatokat?</li>
+<li>Válogassuk ki a leghosszabb ajánlatokat?</li>
+<li>Válogassuk ki a legrövidebb ajánlatokat?</li>
+<li>Válogassuk ki a legnagyobb maximális létszámú ajánlatokat?</li>
+<li>Válogassuk ki a legkisebb maximális létszámú ajánlatokat?</li>
+<li>Válogassuk ki a legtöbb jelentkezéssel bíró ajánlatokat?</li>
+<li>Válogassuk ki a legkisebb jelentkezéssel bíró ajánlatokat?</li>
+<li>Válogassuk ki a nyári, legalább 5 napos ajánlatok közül a legolcsóbbakat!</li>
+<li>Válogassuk ki az őszi, legfeljebb 5 napos ajánlatok közül a legdrágábbakat!</li>
+<li>Válogassuk ki a tavaszi, legalább 2 napos ajánlatok közül a legolcsóbbakat!</li>
+<li>Válogassuk ki a nyári, legfeljebb egy hetes ajánlatok közül a legdrágábbakat!</li>
+<li>Válogassuk ki az őszi, legalább egy hetes ajánlatok közül a legolcsóbbakat!</li>
+<li>Válogassuk ki a téli, legfeljebb 5 napos ajánlatok közül a legdrágábbakat!</li>
+<li>Válogassuk ki az őszi, legalább egy hetes, szabad hellyel rendelkező ajánlatok közül a legolcsóbbakat!</li>
+<li>Válogassuk ki az mátrai, legalább 3 napos, szabad hellyel rendelkező ajánlatok közül a legolcsóbbakat!</li>
+<li>Válogassuk ki az őszi, legfeljebb egy hetes, szabad hellyel rendelkező ajánlatok közül a legolcsóbbakat!</li>
+<li>Válogassuk ki az mátrai, vagy bükki, legalább egy hetes, szabad hellyel rendelkező ajánlatok közül a legolcsóbbakat!</li>
+<li>Válogassuk ki az nyári, legfeljebb egy hetes, szabad hellyel rendelkező ajánlatok közül a legdrágábbakat!</li>
+<li>Hány különböző tájegységre szervez az iroda utazásokat?</li>
+<li>Készíts kimutatást, hogy az 1, 2, ..., 7 éjszakás utakra hány foglalás történt!</li>
+<li>Mely hónapban hány jelentkező van?</li>
+<li>Mely tájegység mennyi pénzt hoz az irodának?</li>
+<li>Mely tájegységre mennyi hely vehető még ki?</li>
+<li>Mely tájegységre van még a legtöbb szabad hely?</li>
+                    </ol>
+                </div>
+                <div id="card-type-tab-2" class="hidden" role="tabpanel" aria-labelledby="card-type-tab-item-2">
+                    <ul class="font-mono text-gray-500 select-all dark:text-neutral-400">
+                        <li>Console.WriteLine("1. Hány ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("2. Hány mátrai tájegységre vonatozó ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("3. Hány mecseki tájegységre vonatozó ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("4. Hány bakonyi tájegységre vonatozó ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("5. Hány hortobágyi tájegységre vonatozó ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("6. Hány őrségi tájegységre vonatozó ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("7. Hány mátrai tájegységre vonatozó, családos ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("8. Hány mecseki tájegységre vonatozó, egyéni ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("9. Hány bakonyi tájegységre vonatozó, májusi ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("10. Hány hortobágyi tájegységre vonatozó, júliusi ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("11. Hány őrségi tájegységre vonatozó, októberi ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("12. Hány mátrai tájegységre vonatozó, családos, öt napnál hosszabb ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("13. Hány mecseki tájegységre vonatozó, egyéni, 3 napnál rövidebb ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("14. Hány bakonyi tájegységre vonatozó, májusi, egy hétnél hosszabb ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("15. Hány hortobágyi tájegységre vonatozó, júliusi, egy hetes ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("16. Hány őrségi tájegységre vonatozó, októberi, öt napos ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("17. Hány mátrai tájegységre vonatozó, családos, még szabad hellyel rendelkező ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("18. Hány mecseki tájegységre vonatozó, egyéni, még szabad hellyel rendelkező ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("19. Hány bakonyi tájegységre vonatozó, májusi, még szabad hellyel rendelkező ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("20. Hány hortobágyi tájegységre vonatozó, júliusi, még szabad hellyel rendelkező ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("21. Hány őrségi tájegységre vonatozó, októberi, még szabad hellyel rendelkező ajánlat található az input fájlban?");</li>
+<li>Console.WriteLine("22. Válogassuk ki a mátrai tájegységre vonatozó, családos, még szabad hellyel rendelkező ajánlatokat!");</li>
+<li>Console.WriteLine("23. Válogassuk ki a bükki tájegységre vonatozó, májusi, még szabad hellyel rendelkező ajánlatokat!");</li>
+<li>Console.WriteLine("24. Válogassuk ki a zempléni tájegységre vonatozó, egyéni, még szabad hellyel rendelkező ajánlatokat!");</li>
+<li>Console.WriteLine("25. Válogassuk ki a mecseki tájegységre vonatozó, júniusi, még szabad hellyel rendelkező ajánlatokat!");</li>
+<li>Console.WriteLine("26. Válogassuk ki a balatoni tájegységre vonatozó, augusztusi, még szabad hellyel rendelkező ajánlatokat!");</li>
+<li>Console.WriteLine("27. Válogassuk ki a mátrai tájegységre vonatozó, családos, még szabad hellyel rendelkező, 20000 Ft alatti ajánlatokat!");</li>
+<li>Console.WriteLine("28. Válogassuk ki a bükki tájegységre vonatozó, májusi, még szabad hellyel rendelkező, 50000 Ft alatti ajánlatokat!");</li>
+<li>Console.WriteLine("29. Válogassuk ki a zempléni tájegységre vonatozó, egyéni, még szabad hellyel rendelkező, 60000 Ft alatti ajánlatokat!");</li>
+<li>Console.WriteLine("30. Válogassuk ki a mecseki tájegységre vonatozó, júniusi, még szabad hellyel rendelkező, 30000 Ft alatti ajánlatokat!");</li>
+<li>Console.WriteLine("31. Válogassuk ki a balatoni tájegységre vonatozó, augusztusi, még szabad hellyel rendelkező, 40000 Ft alatti ajánlatokat!");</li>
+<li>Console.WriteLine("32. Válogassuk ki a mátrai tájegységre vonatozó, nyári, még szabad hellyel rendelkező ajánlatokat!");</li>
+<li>Console.WriteLine("33. Válogassuk ki a bükki tájegységre vonatozó, nyári, még szabad hellyel rendelkező ajánlatokat!");</li>
+<li>Console.WriteLine("34. Válogassuk ki a zempléni tájegységre vonatozó, téli, még szabad hellyel rendelkező!");</li>
+<li>Console.WriteLine("35. Válogassuk ki a mecseki tájegységre vonatozó, tavaszi, még szabad hellyel rendelkező ajánlatokat!");</li>
+<li>Console.WriteLine("36. Válogassuk ki a balatoni tájegységre vonatozó, őszi, még szabad hellyel rendelkező ajánlatokat!");</li>
+<li>Console.WriteLine("37. Van-e az irodának téli, balatoni ajánlata?");</li>
+<li>Console.WriteLine("38. Van-e az irodának őszi, balatoni ajánlata?");</li>
+<li>Console.WriteLine("39. Van-e az irodának tavaszi, hortobágyi ajánlata?");</li>
+<li>Console.WriteLine("40. Van-e az irodának téli, bakonyi ajánlata?");</li>
+<li>Console.WriteLine("41. Van-e az irodának őszi, bükki ajánlata?");</li>
+<li>Console.WriteLine("42. Van-e az irodának nyári, pilisi ajánlata?");</li>
+<li>Console.WriteLine("43. Van-e az irodának téli, őrségi ajánlata?");</li>
+<li>Console.WriteLine("44. Igaz-e, hogy az minden ajánlat legalább 3 napos?");</li>
+<li>Console.WriteLine("45. Igaz-e, hogy az minden ajánlat legalább 5 napos?");</li>
+<li>Console.WriteLine("46. Igaz-e, hogy az minden ajánlat legalább 2 napos?");</li>
+<li>Console.WriteLine("47. Igaz-e, hogy az minden ajánlat legalább 10000 Ft-ba kerül?");</li>
+<li>Console.WriteLine("48. Igaz-e, hogy az minden ajánlat legalább 5000 Ft-ba kerül?");</li>
+<li>Console.WriteLine("49. Igaz-e, hogy az minden ajánlat legalább 1000 Ft-ba kerül?");</li>
+<li>Console.WriteLine("50. Igaz-e, hogy az minden ajánlat tavaszi, és maximális létszáma legalább 20 fő?");</li>
+<li>Console.WriteLine("51. Igaz-e, hogy az minden ajánlat nyári, és maximális létszáma legalább 5 fő?");</li>
+<li>Console.WriteLine("52. Igaz-e, hogy az minden ajánlat téli, és maximális létszáma legalább 30 fő?");</li>
+<li>Console.WriteLine("53. Igaz-e, hogy az minden ajánlat őszi, és maximális létszáma legalább 15 fő?");</li>
+<li>Console.WriteLine("54. Hány forintba kerül a legdrágább ajánlat?");</li>
+<li>Console.WriteLine("55. Hány forintba kerül a legolcsóbb ajánlat?");</li>
+<li>Console.WriteLine("56. Hány napos a leghosszabb ajánlat?");</li>
+<li>Console.WriteLine("57. Hány napos a legrövidebb ajánlat?");</li>
+<li>Console.WriteLine("58. Hány fős a legnagyobb maximális létszámú ajánlat?");</li>
+<li>Console.WriteLine("59. Hány fős a legkisebb maximális létszámú ajánlat?");</li>
+<li>Console.WriteLine("60. Hány fős a legtöbb jelentkezéssel bíró ajánlat?");</li>
+<li>Console.WriteLine("61. Hány fős a legkisebb jelentkezéssel bíró ajánlat?");</li>
+<li>Console.WriteLine("62. Válogassuk ki a mecseki utak közül azokat, melyekre minden hely elkelt.");</li>
+<li>Console.WriteLine("63. Válogassuk ki a zempléni utak közül azokat, melyekre minden hely elkelt.");</li>
+<li>Console.WriteLine("64. Válogassuk ki az őrségi utak közül azokat, melyekre minden hely elkelt.");</li>
+<li>Console.WriteLine("65. Válogassuk ki a balatoni utak közül azokat, melyekre minden hely elkelt.");</li>
+<li>Console.WriteLine("66. Válogassuk ki a legdrágább ajánlatokat?");</li>
+<li>Console.WriteLine("67. Válogassuk ki a legolcsóbb ajánlatokat?");</li>
+<li>Console.WriteLine("68. Válogassuk ki a leghosszabb ajánlatokat?");</li>
+<li>Console.WriteLine("69. Válogassuk ki a legrövidebb ajánlatokat?");</li>
+<li>Console.WriteLine("70. Válogassuk ki a legnagyobb maximális létszámú ajánlatokat?");</li>
+<li>Console.WriteLine("71. Válogassuk ki a legkisebb maximális létszámú ajánlatokat?");</li>
+<li>Console.WriteLine("72. Válogassuk ki a legtöbb jelentkezéssel bíró ajánlatokat?");</li>
+<li>Console.WriteLine("73. Válogassuk ki a legkisebb jelentkezéssel bíró ajánlatokat?");</li>
+<li>Console.WriteLine("74. Válogassuk ki a nyári, legalább 5 napos ajánlatok közül a legolcsóbbakat!");</li>
+<li>Console.WriteLine("75. Válogassuk ki az őszi, legfeljebb 5 napos ajánlatok közül a legdrágábbakat!");</li>
+<li>Console.WriteLine("76. Válogassuk ki a tavaszi, legalább 2 napos ajánlatok közül a legolcsóbbakat!");</li>
+<li>Console.WriteLine("77. Válogassuk ki a nyári, legfeljebb egy hetes ajánlatok közül a legdrágábbakat!");</li>
+<li>Console.WriteLine("78. Válogassuk ki az őszi, legalább egy hetes ajánlatok közül a legolcsóbbakat!");</li>
+<li>Console.WriteLine("79. Válogassuk ki a téli, legfeljebb 5 napos ajánlatok közül a legdrágábbakat!");</li>
+<li>Console.WriteLine("80. Válogassuk ki az őszi, legalább egy hetes, szabad hellyel rendelkező ajánlatok közül a legolcsóbbakat!");</li>
+<li>Console.WriteLine("81. Válogassuk ki az mátrai, legalább 3 napos, szabad hellyel rendelkező ajánlatok közül a legolcsóbbakat!");</li>
+<li>Console.WriteLine("82. Válogassuk ki az őszi, legfeljebb egy hetes, szabad hellyel rendelkező ajánlatok közül a legolcsóbbakat!");</li>
+<li>Console.WriteLine("83. Válogassuk ki az mátrai, vagy bükki, legalább egy hetes, szabad hellyel rendelkező ajánlatok közül a legolcsóbbakat!");</li>
+<li>Console.WriteLine("84. Válogassuk ki az nyári, legfeljebb egy hetes, szabad hellyel rendelkező ajánlatok közül a legdrágábbakat!");</li>
+<li>Console.WriteLine("85. Hány különböző tájegységre szervez az iroda utazásokat?");</li>
+<li>Console.WriteLine("86. Készíts kimutatást, hogy az 1, 2, ..., 7 éjszakás utakra hány foglalás történt!");</li>
+<li>Console.WriteLine("87. Mely hónapban hány jelentkező van?");</li>
+<li>Console.WriteLine("88. Mely tájegység mennyi pénzt hoz az irodának?");</li>
+<li>Console.WriteLine("89. Mely tájegységre mennyi hely vehető még ki?");</li>
+<li>Console.WriteLine("90. Mely tájegységre van még a legtöbb szabad hely?");</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/preline.js"></script>
+</body>
+</html>
